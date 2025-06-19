@@ -4,8 +4,17 @@ const colores = [
     "red",
 ];
 
-function cambiarColor() {
+function cambiaColor() {
+    alert("fdsdsffds6+5");
     const color = colores[Math.floor(Math.random() * colores.length)];
-    document.getElementsByTagName("h5").style.color = color;
+    var tags = document.getElementsByTagName("h5");
+
+    tags.forEach(element => {
+        element.styile = color;
+    });
+
+    alert("fdsdsffds6+5");
 };
+
+
 
