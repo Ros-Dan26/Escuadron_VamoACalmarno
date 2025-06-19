@@ -5,7 +5,7 @@ const colores = [
 ];
 
 function cambiaColor() {
-    alert("fdsdsffds6+5");
+    alert("Se cambio el color");
     const color = colores[Math.floor(Math.random() * colores.length)];
     var tags = document.getElementsByTagName("h5");
 
@@ -13,7 +13,7 @@ function cambiaColor() {
         element.styile = color;
     });
 
-    alert("fdsdsffds6+5");
+
 };
 
 
