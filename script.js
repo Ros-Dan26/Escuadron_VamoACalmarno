@@ -5,14 +5,17 @@ const colores = [
 ];
 
 function cambiaColor() {
-    alert("Se cambio el color");
+    
     const color = colores[Math.floor(Math.random() * colores.length)];
-    var tags = document.getElementsByTagName("h5");
 
-    tags.forEach(element => {
-        element.styile = color;
-    });
+    var array = document.getElementsByTagName("h5");
 
+    for (let index = 0; index < array.length; index++) {
+        array[index].style.color = color;
+        console.log("wasd");
+    }
+
+    alert("Se cambio el color");
 
 };
 
