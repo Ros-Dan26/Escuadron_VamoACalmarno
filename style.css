@@ -8,3 +8,15 @@ img {
   width: 480px;
   height: 320px;
 }
+body {
+  background-color: gray;
+}
+h3 {
+  color: green;
+}
+.azul {
+  color: blue;
+}
+.rojo {
+  color: red;
+}
